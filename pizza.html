@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>pizza!</title>
+	<meta name="description" content="pizza ordering menu">
+	<meta name="author" content="rhodri_thomas">
+	<link rel="stylesheet" type="text/css" href="css/pizza.css">
+</head>
+<body>
+	<div id="menuBG">
+		<h1>Pizza Drill Tutorial</h1>
+		<input id="btnOrder" type="button" onclick="getReciept()" value="Place Order">
+		<form id="frmMenu">
+			<div class="menu left">
+				<h3>Size:</h3>
+				<input type="radio" name="Size" class="size" value="Personal Pizza">Personal<br>
+				<input type="radio" name="Size" class="size" value="Medium Pizza">Medium<br>
+				<input type="radio" name="Size" class="size" value="Large Pizza">Large<br>
+				<input type="radio" name="Size" class="size" value="Extra Large Pizza">Extra Large<br>
+				<input type="radio" name="Size" class="size" value="Absurdly Large Pizza">ABSURDLY Large<br>
+			</div>
+
+			<div class="menu center">
+				<h3>Vegetables:</h3>
+				<input type="checkbox" name="veg" class="vegs" value="carrots">Carrots<br>
+				<input type="checkbox" name="veg" class="vegs" value="lettuce">Lettuce<br>
+				<input type="checkbox" name="veg" class="vegs" value="brussel sprouts">Brussel Sprouts<br>
+				<input type="checkbox" name="veg" class="vegs" value="broccoli">Broccoli<br>
+				<input type="checkbox" name="veg" class="vegs" value="Zucchini">Zucchini<br>
+				<input type="checkbox" name="veg" class="vegs" value="Potato">Potato<br>
+				<input type="checkbox" name="veg" class="vegs" value="Seaweed">Seaweed<br>
+			</div>
+
+			<div class="menu right">
+				<h3>Meats:</h3>
+				<input type="checkbox" name="Topping" class="toppings" value="Pepperoni">Pepperoni<br>
+				<input type="checkbox" name="Topping" class="toppings" value="Sausage">Sausage<br>
+				<input type="checkbox" name="Topping" class="toppings" value="Canadian Bacon">Canadian Bacon<br>
+				<input type="checkbox" name="Topping" class="toppings" value="Ground Beef">Ground Beef<br>
+				<input type="checkbox" name="Topping" class="toppings" value="Anchovy">Anchovy<br>
+				<input type="checkbox" name="Topping" class="toppings" value="Chicken">Chicken<br>
+				<input type="checkbox" name="Topping" class="toppings" value="Raw Stinky Marmot">Raw, Stinky Marmot<br>
+			</div>
+
+			<div id="cart">
+				<div id="showText"></div>
+				<div id="totalPrice"></div>
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="js/pizza.js"></script>
+</body>
+</html>

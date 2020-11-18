@@ -1,0 +1,77 @@
+html {
+	font-family: arial;
+}
+
+body {
+	background: linear-gradient(220deg, rgba(213,245,227,.9), rgba(213,245,227,0) 70%),
+            	linear-gradient(120deg, rgba(218,247,166,.9), rgba(218,247,166,0) 70%),
+           		linear-gradient(340deg, rgba(93,173,226,.9), rgba(93,173,226,0) 70%);
+    background-repeat: no-repeat;
+}
+
+h1 {
+	margin: 0 0px 0 122px;
+	color: #5DADE2;
+	text-shadow: .5px .5px 1px #ff6b6b;
+}
+
+h3 {
+	color: #5DADE2;
+	text-shadow: .5px .5px 1px #ff6b6b;
+}
+
+#menuBG {
+	width: 600px;
+	height: 470px;
+	margin: 10px auto;
+}
+
+#frmMenu {
+	width: 600px;
+	height: 250px;
+}
+
+#totalPrice {
+	width: 200px;
+	height: 190px;
+	margin: 0 auto;
+	float: right;
+}
+
+.left {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+.center {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+.right {
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+#showText {
+	width: 300px;
+	height: 190px;
+	margin: 0px auto;
+	float: none;
+}
+
+#cart {
+	top: 0;
+	margin: 0px auto;
+	width: 400px;
+	height: 200px;
+}
+
+#btnOrder {
+	margin: 10px 0px 0px 207px;
+	width: 100px;
+	height: 40px;
+}
