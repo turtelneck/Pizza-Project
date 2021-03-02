@@ -1,2 +1,2 @@
 # Pizza-Project
- pizza menu built to Tech Academy curriculum's specifications
+ A pizza menu built to curriculum specifications
